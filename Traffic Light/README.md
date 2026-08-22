@@ -1,5 +1,3 @@
-# plc-codesys
-Ladder logic exercises in CODESYS, practicing PLC fundamentals.
 
 ## CODE ##
 Code written in Structured Text (ST) that simulates a traffic light with a pedestrian crossing phase, using CODESYS.
