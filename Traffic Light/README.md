@@ -1,5 +1,5 @@
 
-## CODE ##
+## Traffic Light CODE ##
 Code written in Structured Text (ST) that simulates a traffic light with a pedestrian crossing phase, using CODESYS.
 
 <img width="410" height="336" alt="Screenshot 2026-08-22 135858" src="https://github.com/user-attachments/assets/3bee7854-5eb7-49ad-bb73-dfe92bc6c584" />
