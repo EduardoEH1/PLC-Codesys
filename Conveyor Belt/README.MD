@@ -12,5 +12,4 @@
 
 ### DEMO ###
 
-
-https://github.com/user-attachments/assets/de5c6f8d-0878-486a-8d5a-5bb0409133c9
+https://github.com/user-attachments/assets/d185350d-ab32-4d2a-b2f3-21061a301bf2
