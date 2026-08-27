@@ -8,4 +8,6 @@
 
 ### PROGRAM LOGIC (LD) ###
 
+<img width="963" height="309" alt="Captura de pantalla 2026-08-27 145816" src="https://github.com/user-attachments/assets/7edcbae2-b877-4e2b-b13f-95e19145b3d4" />
+
 ### DEMO ###
