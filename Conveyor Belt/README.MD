@@ -3,8 +3,9 @@
 
 ### DESCRIPTION ###
 
-### VARIABLES CODE ###
+### VARIABLE DECLARATION ###
 
-### LADDER LOGIC ###
 
-### RUN CODE ###
+### PROGRAM LOGIC (LD) ###
+
+### DEMO ###
