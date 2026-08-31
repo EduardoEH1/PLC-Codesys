@@ -11,6 +11,7 @@ The variable declaration contains the simulated Start/Stop controls, high and lo
 
 
 ### PROGRAM LOGIC (LD) ###
+The Ladder Logic is divided into seven networks. The first network controls the Start/Stop operation and keeps the cycle active using seal-in logic. The following networks control the filling stage, inlet valve, waiting stage, and TON timer. The final networks control the draining stage and stop the process when the low-level sensor is reached.
 
 <img width="940" height="543" alt="Captura de pantalla 2026-08-31 172531" src="https://github.com/user-attachments/assets/11300ac6-a77d-4f09-a35a-1ee94b8cd673" />
 
