@@ -21,7 +21,7 @@ https://github.com/user-attachments/assets/bae461ae-6c30-4b87-8a88-53af25fba37d
 
 ### What you see in the demo: ###
 
-The traffic light automatically cycles through Red → Green → Yellow → Pedestrian Crossing → Red, then repeats the sequence.
+The traffic light automatically cycles through CASE STATES: Case 0 (Red) → Case 1 (Green) → Case 2 (Yellow) → Case 3 (Pedestrian Crossing) → Case 0 (Red), then repeats the sequence.
 
 
 
