@@ -21,3 +21,8 @@ The Ladder Logic is divided into seven networks. The first network controls the 
 
 https://github.com/user-attachments/assets/8257a87d-4654-4e7e-a1a0-de45153e648b
 
+| Phase                 | What you do                                       | What it means                                                                                     |
+| --------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| **1. Start & Fill**   | `StartButton: TRUE → FALSE`                       | Starts the cycle. The inlet valve opens and the tank begins filling.                              |
+| **2. Full & Drain**   | `HighLevelSensor: TRUE`                           | Filling stops. After a 3-second delay, the outlet valve opens and draining begins.                |
+| **3. Cycle Complete** | `HighLevelSensor: FALSE` → `LowLevelSensor: TRUE` | The level drops during draining. Reaching the low-level sensor stops draining and ends the cycle. |
