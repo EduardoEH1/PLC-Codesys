@@ -20,8 +20,11 @@ https://github.com/user-attachments/assets/d185350d-ab32-4d2a-b2f3-21061a301bf2
 
 ### What you see in the DEMO: ###
 
-| Step                         | What you see                          | What it means                                                                                                                  |
-| ---------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| **1. Start Conveyor**        | StartButton: TRUE → FALSE          | Starts the conveyor. The motor remains running through seal-in logic.                                                          |
-| **2. Detect & Count Pieces** | PieceSensor: TRUE → FALSE (repeat) | Each sensor activation represents a passing piece and increases the counter by one.                                            |
-| **3. Reset & Complete**      | ResetCounter: TRUE → FALSE         | When the preset count is reached, the conveyor stops automatically. Resetting the counter prepares the system for a new cycle. |
+| Step                            | What you see                                             | What it means                                                                       |
+| ------------------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| **Extra Step — Stop & Restart** | StopButton: TRUE → FALSE` → `StartButton: TRUE → FALSE | Demonstrates manual stopping and restarting of the conveyor.                        |
+| **1. Start Conveyor**           | StartButton: TRUE → FALSE                              | The conveyor starts and remains running through seal-in logic.                      |
+| **2. Detect & Count Pieces**    | PieceSensor: TRUE → FALSE (repeat)                     | Each sensor activation represents a passing piece and increases the counter by one. |
+| **3. Automatic Stop**           | PieceCount reaches PV                                  | The preset count is reached and the conveyor stops automatically.                   |
+| **4. Reset Counter**            | ResetCounter: TRUE → FALSE                             | The counter returns to zero and the system is ready for a new cycle.                |
+
