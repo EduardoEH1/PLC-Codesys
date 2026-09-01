@@ -21,4 +21,12 @@ The Ladder Logic is divided into seven networks. The first network controls the 
 
 https://github.com/user-attachments/assets/8257a87d-4654-4e7e-a1a0-de45153e648b
 
+### WHAT YOU SEE IN THE DEMO: ###
+
+| Step                        | What you do                     | What it means                                                                                                                                                  |
+| --------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Start & Fill**         | `StartButton: TRUE → FALSE`     | Starts the cycle. The inlet valve opens and the tank begins filling.                                                                                           |
+| **2. High Level & Drain**   | `HighLevelSensor: TRUE → FALSE` | Filling stops at the high level. After a 3-second delay, draining begins. Setting the sensor back to FALSE simulates the liquid dropping below the high level. |
+| **3. Low Level & Complete** | `LowLevelSensor: TRUE → FALSE`  | Reaching the low level stops the draining process and ends the cycle. Returning the sensor to FALSE leaves the system ready for the next cycle.                |
+
 
