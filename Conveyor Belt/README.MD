@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/d185350d-ab32-4d2a-b2f3-21061a301bf2
 
 ### What you see in the DEMO: ###
 
-| Step                         | What you do                          | What it means                                                                                                                  |
+| Step                         | What you see                          | What it means                                                                                                                  |
 | ---------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
 | **1. Start Conveyor**        | StartButton: TRUE → FALSE          | Starts the conveyor. The motor remains running through seal-in logic.                                                          |
 | **2. Detect & Count Pieces** | PieceSensor: TRUE → FALSE (repeat) | Each sensor activation represents a passing piece and increases the counter by one.                                            |
