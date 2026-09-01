@@ -19,5 +19,5 @@ The Ladder Logic is divided into seven networks. The first network controls the 
 
 ### DEMO ###
 
-
+https://github.com/user-attachments/assets/8257a87d-4654-4e7e-a1a0-de45153e648b
 
