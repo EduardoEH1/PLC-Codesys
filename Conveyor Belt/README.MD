@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/d185350d-ab32-4d2a-b2f3-21061a301bf2
 
 | Step                            | What you see                                             | What it means                                                                       |
 | ------------------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| **Extra Step : Stop & Restart** |  StartButton: TRUE → FALSE THEN StopButton: TRUE → FALSE →| Demonstrates manual stopping and restarting of the conveyor.                        |
+| **Extra Step : Manual Start & Stop** |  StartButton: TRUE → FALSE THEN StopButton: TRUE → FALSE →|Demonstrates that the conveyor can be manually started and stopped using the operator controls                        |
 | **1. Start Conveyor**           | StartButton: TRUE → FALSE                              | The conveyor starts and remains running through seal-in logic.                      |
 | **2. Detect & Count Pieces**    | PieceSensor: TRUE → FALSE (repeat)                     | Each sensor activation represents a passing piece and increases the counter by one. |
 | **3. Automatic Stop**           | PieceCount reaches PV                                  | The preset count is reached and the conveyor stops automatically.                   |
