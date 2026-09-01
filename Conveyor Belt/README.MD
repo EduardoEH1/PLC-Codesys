@@ -17,3 +17,11 @@ The Ladder Logic is divided into two networks. The first network controls the co
 ### DEMO ###
 
 https://github.com/user-attachments/assets/d185350d-ab32-4d2a-b2f3-21061a301bf2
+
+### What you see in the DEMO: ###
+
+| Step                         | What you do                          | What it means                                                                                                                  |
+| ---------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| **1. Start Conveyor**        | StartButton: TRUE → FALSE          | Starts the conveyor. The motor remains running through seal-in logic.                                                          |
+| **2. Detect & Count Pieces** | PieceSensor: TRUE → FALSE (repeat) | Each sensor activation represents a passing piece and increases the counter by one.                                            |
+| **3. Reset & Complete**      | ResetCounter: TRUE → FALSE         | When the preset count is reached, the conveyor stops automatically. Resetting the counter prepares the system for a new cycle. |
